@@ -276,6 +276,7 @@ p {
 
 .navbar-inverse .navbar-nav > li > a {
     color: #D2D2D2;
+    font-weight: bold !important;
 }
 
 .navStyle {
@@ -311,27 +312,32 @@ p {
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
+    font-weight: bold !important;
 }
 
 .navStyle ul li a:hover {
     color: #f44336;
+    font-weight: bold !important;
 }
 
 .navStyle > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
     color: #f44336;
     background-color: transparent;
+    font-weight: bold !important;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: #FFFFFF;
     background-color: transparent;
+    font-weight: bold !important;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #f44336;
     background-color: transparent;
     border-radius: 4px;
+    font-weight: bold !important;
 }
 
 .navStyle > li.active > a,
@@ -339,6 +345,7 @@ p {
     text-decoration: none;
     color: #f44336;
     background-color: transparent;
+    font-weight: bold !important;
 }
 
 .borderLeft {
@@ -2347,7 +2354,8 @@ margin: 0 18px;
 .page_section.team{
 padding: 40px 0;
 }
-, #clients {
+
+#clients {
 padding: 40px 0;
 }
 .client_logos ul li {
@@ -2395,6 +2403,7 @@ float: right;
 .navStyle ul li {
 display: block;
 margin: 0px;
+font-weight: bold !important;;
 }
 .navStyle ul li:last-child {
 margin: 0px;
@@ -2403,6 +2412,7 @@ margin: 0px;
 color: #D0D0D0; 
 font-size: 14px;
 padding: 10px 11px;
+font-weight: bold !important;
 }
 } 
 @media (max-width: 480px){ 
