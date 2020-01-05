@@ -1062,6 +1062,21 @@ margin-bottom: 5px;
     color: #3b5998;
 }
 
+.team_box ul li a.fa-githubhover {
+    color: #777777;
+}
+
+.team_box ul li a.fa-linkedin:hover {
+    color: #2f0bb19a;
+}
+
+.team_box ul li a.fa-instagram:hover {
+    color: #e01071;
+}
+
+.team_box ul li a.fa-whatsapp:hover {
+    color: #0ebb0e;
+}
 .team_box ul li a.fa-pinterest:hover {
     color: #f44336;
 }
@@ -1234,6 +1249,22 @@ transition: all .3s;
 
 .facebook a:hover {
     color: #3b5998;
+}
+
+.whatsapp a:hover {
+    color: #0ebb0e;
+}
+
+.instagram a:hover {
+    color: #e01071;
+}
+
+.github a:hover {
+    color: #777777;
+}
+
+.linkedin a:hover {
+    color: #2f0bb19a;
 }
 
 .pinterest a:hover {
@@ -2399,4 +2430,9 @@ display:none;
 .img-responsive {
     width: 87%;
     margin-top: -31px;
+}
+
+.social_icons {
+    font-size: 40px !important;
+    /* padding-left: 20px; */
 }
