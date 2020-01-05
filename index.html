@@ -309,10 +309,10 @@
           </div>
           <div class="col-lg-8 wow fadeInLeft delay-06s">
               <div class="form">
-                <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
-                <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
-                <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
-                <input class="input-btn" type="submit" value="send message">
+                <input class="input-text" type="text" name="" id="contact_name" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+                <input class="input-text" type="text" name="" id="contact_email" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+                <textarea class="input-text text-area" cols="0" id ="contact_msg" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+                <input class="input-btn" type="submit" value="send message" onclick="send_whatspp_msg()">
               </div>
           </div>
         </div>
@@ -332,7 +332,9 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script> 
   <script type="text/javascript" src="./assets/js/wow.js"></script>
   <script type="text/javascript" src="./assets/js/custom.js"></script> 
-
+  <script>
+    function send_whatspp_msg(){if(confirm("Send message on WhatsApp!")){var e=document.getElementById("contact_name").value,t=document.getElementById("contact_email").value,n=document.getElementById("contact_msg").value,m="https://web.whatsapp.com/send?phone=+919623299399&text="+("*"+e.trim()+"* %0D%0A__"+t.trim()+"__%0D%0A %0D%0A"+n);window.open(m)}}
+  </script>
 </body>
 
 </html>
