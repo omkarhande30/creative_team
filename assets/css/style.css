@@ -2446,3 +2446,116 @@ display:none;
     font-size: 40px !important;
     /* padding-left: 20px; */
 }
+
+.tech_icons {
+    width: 120px;
+}
+
+.tech_skill_list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.tech_skill {
+    /* padding-bottom: 10px; */
+    height: 150px;
+}
+
+.tech_name {
+    border-radius: 10px;
+    padding: 5px 0px;
+}
+
+.align-bottom {
+    position: absolute;
+    bottom: 0%;
+
+}
+
+.p-4{
+    padding: 10px;
+}
+
+.fade {
+    background :#808080b8 !important;
+}
+
+.modal-dialog {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .modal.fade .modal-dialog {
+    transform: translate(0, -100%);
+  }
+  
+  .modal.in .modal-dialog {
+    transform: translate(0, 0);
+  }
+
+
+  #loader-3:before, #loader-3:after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 10px);
+    background-color: #3498db;
+    animation: squaremove 1s ease-in-out infinite;
+  }
+  
+  #loader-3:after{
+    bottom: 0;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes squaremove{
+    0%, 100%{
+      -webkit-transform: translate(0,0) rotate(0);
+      -ms-transform: translate(0,0) rotate(0);
+      -o-transform: translate(0,0) rotate(0);
+      transform: translate(0,0) rotate(0);
+    }
+  
+    25%{
+      -webkit-transform: translate(15px,15px) rotate(45deg);
+      -ms-transform: translate(15px,15px) rotate(45deg);
+      -o-transform: translate(15px,15px) rotate(45deg);
+      transform: translate(15px,15px) rotate(45deg);
+    }
+  
+    50%{
+      -webkit-transform: translate(0px,40px) rotate(0deg);
+      -ms-transform: translate(0px,40px) rotate(0deg);
+      -o-transform: translate(0px,40px) rotate(0deg);
+      transform: translate(0px,40px) rotate(0deg);
+    }
+  
+    75%{
+      -webkit-transform: translate(-15px,15px) rotate(45deg);
+      -ms-transform: translate(-15px,15px) rotate(45deg);
+      -o-transform: translate(-15px,15px) rotate(45deg);
+      transform: translate(-15px,15px) rotate(45deg);
+    }
+  }
+ 
+  .contactStatusText{
+      margin-top: 70px;
+  }
+
+  .statusMessageContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 140px !important;
+    padding: 10px !important;
+
+  }
