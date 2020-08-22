@@ -2559,3 +2559,39 @@ display:none;
     padding: 10px !important;
 
   }
+  /* Portfolio */
+
+  .portfolio-card-container {
+      margin-top:20px;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  .portfolio-card-box {
+    text-align: center !important;
+    border: 1px solid rgba(0,0,0,.125);
+    padding:30px;
+   }
+   .portfolio-open {
+       margin-top: 10px;
+   }
+
+   .portfolio-text {
+       padding-top: 10px;
+   }
+
+   .card-img-top {
+       width: 250;
+       height: 200px;
+   }
+
+   .portfolio-more{
+        width: 200;
+        height: 200px;
+   }
+
+   .portfolio-container {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+   }
