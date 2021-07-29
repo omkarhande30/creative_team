@@ -2,9 +2,6 @@ const staticCacheName = 'site-static-v1';
 const assets = [
   '/',
   '/index.html',
-  '/assets/js/wow.js',
-  '/assets/js/custom.js',
-  '/assets/css/bootstrap.css',
 ];
 
 // install event
