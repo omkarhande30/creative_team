@@ -1,0 +1,31 @@
+{
+    "name": "Suraj Nanavare",
+    "short_name": "Suraj",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#F4F4F4",
+    "theme_color": "#F4F4F4",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/assets/img/pwa/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/assets/img/pwa/icon-256x256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "/assets/img/pwa/icon-384x384.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "/assets/img/pwa/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

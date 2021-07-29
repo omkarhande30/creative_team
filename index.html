@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, maximum-scale=1">
-  <meta name="Description"
+  <meta name="description"
     content="I am enthusiastic and fascinated by technology. Solution Alnalyst | Full Stack Developer | Technology Agnostic">
-  <meta name="Keywords" content="business,technology,solution,growth,accelerate">
+  <meta name="keywords" content="business,technology,solution,growth,accelerate">
   <meta property="og:title" content="Suraj Nanavare | Full Stack Developer">
   <meta property="og:image" content="https://surajnanavare.com/assets/img/about/about_300_270.png">
   <meta property="og:description" content="Solution Alnalyst | Full Stack Developer | Technology Agnostic">
@@ -20,6 +20,19 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     type="text/css">
   <link href="./assets/css/animate.css" rel="stylesheet" type="text/css">
+
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="./assets/img/pwa/icon-192x192.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
+  <meta name="theme-color" content="#FFE1C4">
+  <script src="./assets/js/sw.js"></script>
+  <script>
+    if('serviceWorker' in navigator){
+      navigator.serviceWorker.register('/assets/js/sw.js')
+        .then(reg => console.log('service worker registered'))
+        .catch(err => console.log('service worker not registered', err));
+    }
+  </script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-5EMBMY94KS"></script>
