@@ -1,2 +1,2 @@
-# mr_perfect
-This is repository for my personal portfolio.
+# mr_perfect - Creative Team
+This is repository for creative team.
