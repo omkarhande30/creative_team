@@ -1,2 +1,2 @@
-# mr_perfect - Creative Team
+# Creative Team
 This is repository for creative team.
