@@ -26,6 +26,11 @@
         gtag('js', new Date());
 
         gtag('config', 'G-5EMBMY94KS');
+        function updateOwner(params) {
+            var owner = document.location.host.split('.')[1];
+            document.getElementById(owner).classList.remove('order-1');
+            document.getElementById(owner).classList.add('order-0');
+        }
     </script>
     <!--[if lt IE 9]>
     <script src="js/respond-1.1.0.min.js"></script>
@@ -33,6 +38,7 @@
     <script src="js/html5element.js"></script>
     <![endif]-->
     <script type="text/javascript">
+        if(document.location.host.split('.')[1]=="surananavare")
         (function () {
             window.sib = { equeue: [], client_key: "ipg0cwmx5dsti35ogs1ijva1" };
             /* OPTIONAL: email to identify request*/
@@ -49,7 +55,7 @@
     </script>
 </head>
 
-<body>
+<body onload="updateOwner()">
     <!-- Team -->
     <div class="row m-0 p-4 d-flex justify-content-center align-items-center flex-column">
         <h1 class="text-center" style="font-weight: 900;">Team Creative 😎 Credits</h1>
@@ -57,7 +63,7 @@
     </div>
 
     <div class="row m-0 p-4 d-flex justify-content-center">
-        <div class="col-md-5 mb-4 p-0 m-2" style="box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;">
+        <div class="col-md-5 mb-4 p-0 m-2 order-1" id="surajnanavare" style="box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;">
             <!-- Profile widget -->
             <div class="bg-white shadow rounded overflow-hidden">
                 <div class="px-4 pt-0 pb-4 cover">
@@ -95,7 +101,7 @@
             </div>
         </div>
 
-        <div class="col-md-5 mb-4 p-0 m-2" style="box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;">
+        <div class="col-md-5 mb-4 p-0 m-2 order-1" id="omkarhande" style="box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;">
             <!-- Profile widget -->
             <div class="bg-white shadow rounded overflow-hidden">
                 <div class="px-4 pt-0 pb-4 cover">
